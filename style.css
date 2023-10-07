@@ -2,12 +2,15 @@
 
 body {
     font-family: 'Sora', sans-serif;
+    font-weight: 300;
     font-size: 0.875rem;
-    line-height: 1.6;
+    line-height: 1.49;
+    letter-spacing: -.01em;
 }
 
 .card h1 {
     font-size: 1.125rem;
+    letter-spacing: -.016em;
 }
 
 .card .author {
@@ -22,6 +25,7 @@ body {
 /* Layout & Color */
 
 body {
+    margin: 0;
     background-color: #FAFAF9;
     color: #6C727F;
 }
@@ -31,7 +35,8 @@ body {
     margin-top: 163px;
 
     width: 368px;
-    border-radius: 16px;
+    border-radius: 12px;
+    background-color: white;
     box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
 }
 
@@ -42,7 +47,7 @@ body {
 .card .tag {
     display: inline-block;
     margin: 16px 0;
-    padding: 6px 16px;
+    padding: 3px 16px;
 
     border-radius: 16px;
     background-color: #E6D6FC;
@@ -55,18 +60,16 @@ body {
 }
 
 .card p {
-    margin-top: 6px;
-    margin-bottom: 4px;
+    margin: 3px 0;
 }
 
 .card img {
+    display: block;
     height: 152px;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 16px;
-
+    border-radius: 12px;
 }
 
 .card .author {
     border-top: 1px solid #E5EAF0;
+    padding: 19px 16px;
 }
